@@ -1,13 +1,12 @@
 {
-  "name": "electron-quick-start",
+  "name": "electron-weighing",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Mock weighing server for test.",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "package": "electron-packager ./ weighing-server --win --out weighing-server --arch=x64 --version 1.8.1 --overwrite --ignore=node_modules"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
     "Electron",
     "quick",
@@ -15,8 +14,6 @@
     "tutorial",
     "demo"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
   "dependencies": {
     "@koa/cors": "^2.2.1",
     "debug": "^2.6.3",
