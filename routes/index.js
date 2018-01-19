@@ -1,5 +1,4 @@
 const router = require("koa-router")();
-var pug = require("pug");
 let { mainWindow } = require('../main');
 
 router.get("/CargoWeight/index.jsp", async (ctx, next) => {
